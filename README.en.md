@@ -49,7 +49,7 @@ Free Douyin/TikTok API:[Tikhub Beta Opi](https://beta.tikhub.io/)
 
 > 🚨If you need to use a private server to run this project, please refer to the deployment method\[[Docker deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%BA%8C-docker),[One-click deployment](./README.md#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F%E4%B8%80-linux)]
 
-This project is based on[PyWebIO](https://github.com/pywebio/PyWebIO)，[FastAPI](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast and asynchronous[Tik Tok](https://www.douyin.com/)/[TikTok](https://www.tiktok.com/)Data crawling tool, and realizes online batch parsing and downloading of videos or photo albums without watermarks, data crawling API, and iOS shortcut command without watermark downloads through the Web. You can deploy or modify this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)or install an existing[pip package](https://pypi.org/project/douyin-tiktok-scraper/)As a parsing library, it is easy to crawl data, etc.....
+This project is based on[PyWebIO](https://github.com/pywebio/PyWebIO)，[FastAPI](https://fastapi.tiangolo.com/)，[HTTPX](https://www.python-httpx.org/), fast and asynchronous[Tik Tok](https://www.douyin.com/)/[TikTok](https://www.tiktok.com/)Data crawling tool, and realizes online batch parsing and downloading of videos or photo albums without watermarks, data crawling API, and iOS shortcut command without watermark downloads through the Web. You can deploy or modify this project yourself to achieve more functions, or you can call it directly in your project[scraper.py](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/Stable/scraper.py)or install an existing[pip package](https://pypi.org/project/douyin-tiktok-scraper/)作为解析库轻松爬取数据等.....
 
 _Some simple application scenarios:_
 
@@ -57,7 +57,7 @@ _Download prohibited videos, perform data analysis, download without watermark o
 
 ## 🖥Demo site: I am very vulnerable...please do not stress test (·•᷄ࡇ•᷅ )
 
-> 😾I turned off the online download function of the demo site. The video someone downloaded was so huge that it crashed my server. I just right-clicked on the webpage parsing result and saved it...
+> 😾I turned off the online download function of the demo site. The video someone downloaded was so huge that it crashed my server. Just right-click on the web page parsing results and save it...
 
 🍔Web APP:<https://douyin.wtf/>
 
@@ -89,7 +89,7 @@ _Download prohibited videos, perform data analysis, download without watermark o
 
 > **_/app/web_**
 
--   use`PyWebIO`A simple web program created to process the values ​​entered on the web page and use them`Crawlers`The related class processing interface outputs related data on the web page.
+-   use`PyWebIO`A simple web program created to process the values ​​entered on the web page and then use them`Crawlers`The related class processing interface outputs related data on the web page.
 
 **_Most of the parameters of the above files can be found in the corresponding`config.yaml`Make changes in_**
 
@@ -231,11 +231,11 @@ Online:<https://api.douyin.wtf/docs>
 -   Crawl video data (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/hybrid/video_data?url=[视频链接/Video URL]&minimal=false`
 -   Download videos/photo albums (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/download?url=[视频链接/Video URL]&prefix=true&with_watermark=false`
 
-**_For more demonstrations, please see the documentation..._**
+**_For more demonstrations, please view the document content..._**
 
 ## 💻Deployment (Method 1 Linux)
 
-> 💡Tips: It is best to deploy this project to a server in the United States, otherwise strange BUGs may occur.
+> 💡Tip: It is best to deploy this project to a server in the United States, otherwise strange BUGs may occur.
 
 Recommended for everyone to use[Digitalocean](https://www.digitalocean.com/)servers, mainly because they are free.
 
